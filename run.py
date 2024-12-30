@@ -136,7 +136,7 @@ async def handle_grow_and_garden(session, account):
         garden -= 10
 
 def get_random_eth_amount():
-    return random.uniform(0.0000000001, 0.0000000005)
+    return random.uniform(0.0000005, 0.0000008)
 
 async def handle_eth_transactions(session, account, num_transactions):
     private_key = account['private_key']
